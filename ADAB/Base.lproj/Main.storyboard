@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZHP-Ct-GpG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TKF-yP-6SJ">
+            <objects>
+                <viewController id="ZHP-Ct-GpG" customClass="ViewController" customModule="Adab_Makan_Dan_Minum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cMB-Cd-yns">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ADAB MAKAN DAN MINUM" translatesAutoresizingMaskIntoConstraints="NO" id="C0L-Kh-VdW">
+                                <rect key="frame" x="68" y="105" width="239" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="v9c-fg-wjO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LETS START (ADAB)" translatesAutoresizingMaskIntoConstraints="NO" id="xgB-lj-XMY">
+                                <rect key="frame" x="134" y="333" width="107" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="aXP-MG-7Pz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sy5-Iu-dJk">
+                                <rect key="frame" x="134" y="368" width="107" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FO5-EG-Qff"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="i2e-bZ-Orb" kind="show" id="6Vj-yz-LNu"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="W THEM" translatesAutoresizingMaskIntoConstraints="NO" id="0Nh-Nb-IGC">
+                                <rect key="frame" x="78" y="297" width="219" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="brJ-aV-yQm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C0L-Kh-VdW" firstAttribute="top" secondItem="cMB-Cd-yns" secondAttribute="topMargin" constant="85" id="1yc-Ij-sbZ"/>
+                            <constraint firstItem="0Nh-Nb-IGC" firstAttribute="top" secondItem="cMB-Cd-yns" secondAttribute="topMargin" constant="277" id="4OE-z5-gqt"/>
+                            <constraint firstItem="C0L-Kh-VdW" firstAttribute="leading" secondItem="hP6-6e-RdG" secondAttribute="leading" constant="68" id="8V8-2c-91H"/>
+                            <constraint firstItem="hP6-6e-RdG" firstAttribute="trailing" secondItem="0Nh-Nb-IGC" secondAttribute="trailing" constant="78" id="Kk8-6r-gWy"/>
+                            <constraint firstItem="xgB-lj-XMY" firstAttribute="top" secondItem="cMB-Cd-yns" secondAttribute="topMargin" constant="313" id="QZL-Oo-qRr"/>
+                            <constraint firstItem="sy5-Iu-dJk" firstAttribute="leading" secondItem="hP6-6e-RdG" secondAttribute="leading" constant="134" id="hef-yg-sRH"/>
+                            <constraint firstItem="xgB-lj-XMY" firstAttribute="leading" secondItem="hP6-6e-RdG" secondAttribute="leading" constant="134" id="jCP-Qg-6c1"/>
+                            <constraint firstItem="0Nh-Nb-IGC" firstAttribute="leading" secondItem="hP6-6e-RdG" secondAttribute="leading" constant="78" id="kzQ-De-R28"/>
+                            <constraint firstItem="hP6-6e-RdG" firstAttribute="trailing" secondItem="C0L-Kh-VdW" secondAttribute="trailing" constant="68" id="nb8-0g-hus"/>
+                            <constraint firstItem="hP6-6e-RdG" firstAttribute="trailing" secondItem="xgB-lj-XMY" secondAttribute="trailing" constant="134" id="q84-VZ-RiW"/>
+                            <constraint firstItem="hP6-6e-RdG" firstAttribute="trailing" secondItem="sy5-Iu-dJk" secondAttribute="trailing" constant="134" id="qf3-MT-MXC"/>
+                            <constraint firstItem="sy5-Iu-dJk" firstAttribute="top" secondItem="cMB-Cd-yns" secondAttribute="topMargin" constant="348" id="sNo-Yq-yAc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hP6-6e-RdG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppg-7y-xxb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="385" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jiw-Po-BD7">
+            <objects>
+                <viewController id="i2e-bZ-Orb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hfa-PQ-cS3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="makan" translatesAutoresizingMaskIntoConstraints="NO" id="hjl-sF-pPn">
+                                <rect key="frame" x="91" y="150" width="192" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="AE4-nZ-6qj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ADAB MAKANAN" translatesAutoresizingMaskIntoConstraints="NO" id="m0B-1D-1Vv">
+                                <rect key="frame" x="91" y="320" width="192" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="Y0Q-qR-2yI"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-hi-efh">
+                                <rect key="frame" x="91" y="375" width="192" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="iOe-7q-Cmn"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="V3i-Xy-6kc" kind="show" id="VmA-eL-xgF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbA-os-Vw1">
+                                <rect key="frame" x="88" y="201" width="192" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="y9U-0H-UVy"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="q3o-XB-OSe" kind="show" id="imH-yL-tNZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JbI-hi-efh" firstAttribute="leading" secondItem="9Eb-je-nKa" secondAttribute="leading" constant="91" id="52b-Qc-dO6"/>
+                            <constraint firstItem="9Eb-je-nKa" firstAttribute="trailing" secondItem="JbI-hi-efh" secondAttribute="trailing" constant="92" id="6zL-ca-taR"/>
+                            <constraint firstItem="KbA-os-Vw1" firstAttribute="leading" secondItem="9Eb-je-nKa" secondAttribute="leading" constant="88" id="84p-JU-GWO"/>
+                            <constraint firstItem="KbA-os-Vw1" firstAttribute="top" secondItem="Hfa-PQ-cS3" secondAttribute="topMargin" constant="181" id="8zy-7e-C9R"/>
+                            <constraint firstItem="9Eb-je-nKa" firstAttribute="trailing" secondItem="m0B-1D-1Vv" secondAttribute="trailing" constant="92" id="VbO-Dq-SbF"/>
+                            <constraint firstItem="hjl-sF-pPn" firstAttribute="top" secondItem="Hfa-PQ-cS3" secondAttribute="topMargin" constant="130" id="Y7I-wr-XWc"/>
+                            <constraint firstItem="m0B-1D-1Vv" firstAttribute="top" secondItem="Hfa-PQ-cS3" secondAttribute="topMargin" constant="300" id="ciH-ii-2B6"/>
+                            <constraint firstItem="9Eb-je-nKa" firstAttribute="trailing" secondItem="hjl-sF-pPn" secondAttribute="trailing" constant="92" id="feL-vy-Z7s"/>
+                            <constraint firstItem="m0B-1D-1Vv" firstAttribute="leading" secondItem="9Eb-je-nKa" secondAttribute="leading" constant="91" id="jXt-la-lfi"/>
+                            <constraint firstItem="JbI-hi-efh" firstAttribute="top" secondItem="Hfa-PQ-cS3" secondAttribute="topMargin" constant="355" id="jfN-cN-nPp"/>
+                            <constraint firstItem="hjl-sF-pPn" firstAttribute="leading" secondItem="9Eb-je-nKa" secondAttribute="leading" constant="91" id="l2d-Jl-s4L"/>
+                            <constraint firstItem="9Eb-je-nKa" firstAttribute="trailing" secondItem="KbA-os-Vw1" secondAttribute="trailing" constant="95" id="r74-u6-YQh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Eb-je-nKa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rr2-jb-xxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1041" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="p28-fG-mpD">
+            <objects>
+                <viewController id="We1-7W-BrD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FSx-4p-rZt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ME" translatesAutoresizingMaskIntoConstraints="NO" id="7D7-XL-0xY">
+                                <rect key="frame" x="33" y="62" width="308" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="huN-VJ-mFU">
+                                <rect key="frame" x="67" y="258" width="240" height="233.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">My name is Kharisma Muhammad Rizqi Nugroho, I’m Senior high school in IDN Boarding School in jonggol, and i 15 years old  
+Add My Instagram _Kharisma_Rizqi_  My Line Krospop123  My Github KharismaRizqi</string>
+                                <color key="textColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="lZL-hf-FWC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TjB-fg-hWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1724" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="46H-zT-YMA">
+            <objects>
+                <viewController id="q3o-XB-OSe" customClass="ViewController" customModule="ADAB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zOM-qN-BqQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Oh4-Rd-odJ">
+                                <rect key="frame" x="67" y="223" width="240" height="297"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Cqf-aw-EcI"/>
+                                    <constraint firstAttribute="height" constant="297" id="yba-Bz-auI"/>
+                                </constraints>
+                                <mutableString key="text">1. Meneyebut nama Allah subhanahu wa ta’ala sebelum makan.
+
+Sebelum kita makan, awali dengan membaca doa dengan menyebut namaNya, sebagai bentuk terima kasih kita atas nikmat yang telah diberikan.
+
+Rasulullah sallallahu alaihi wasallam berkata pada seorang anak laki-laki, 'Hai anak laki-laki! Sebutkan Nama Allah dan makanlah dengan tangan kananmu, dan makanlah makanan yang lebih dekat denganmu.
+
+"Sejak saat itu aku telah menerapkan instruksi itu saat makan.” (HR. Bukhari)
+
+2.   Makan makanan yang lebih dekat dengan posisi anda berada.
+
+Saat makan, banyak berbagai jenis makanan yang dihidangkan. Dan Rasulullah sallallahu alaihi wasallam menganjrkan kita untuk ambil makanan yang berada paling dekat dengan kita terlebih dahulu.
+
+Sebuah makanan dibawa ke Rasulullah sallallahu alaihi wasallam sementara anak tirinya, 'Umar bin Abi Salama bersamanya. Rasulullah SAW berkata kepadanya, "Sebutkan Nama Allah dan makanlah makanan yang lebih dekat denganmu." (HR. Bukhari)
+
+3. Makan dengan tangan kanan.
+
+Rasulullah sallallahu alaihi wasallam sangat menyukai melakukan segala hal dengan tangan kanan, termasuk ketika makan.
+
+Rasulullah shallallahu 'alaihi wasallam bersabda: "Jika salah seorang dari kalian makan, hendaklah ia makan dengan tangan kanannya dan minum dengan tangan kanannya. Sesungguhnya setan makan dan minum dengan tangan kirinya." (HR. Malik)
+
+4. Makan dengan tidak berlebihan.
+
+Sesuatu yang berlebihan itu tidak baik. Begitupun saat makan. Jika kebanyakan akan membuat kita menjadi orang yang malas setelahnya.
+
+Rasulullah sallallahu alaihi wasallam bersabda, "Orang percaya makan dalam satu usus (puas dengan sedikit makanan), dan orang kafir (tidak percaya) atau orang munafik makan di tujuh usus (makan terlalu banyak). (HR. Bukhari)
+
+5. Tidak makan sambil bersandar.
+
+Rasulullah sallallahu alahi wasallam berkata, "Saya tidak mengambil makanan saya sambil bersandar (melawan sesuatu). (HR. Bukhari)
+
+6. Tidak mencela makanan.
+
+Dikisahkan oleh Abu Hurairah] ia berkata, "Rasulullah shallallahu 'alaihi wasallam tidak pernah mencela makanan sama sekali, apabila senang maka beliau memakannya dan apabila tidak menyukai maka beliau meninggalkannya.” (HR. Abu Daud)
+
+7. Makan dari bagain bawah piring.
+
+Dikisahkan oleh Ibnu Abbas, dari Rasulullah shallallahu 'alaihi wasallam, beliau bersabda: "Apabila salah seorang di antara kalian makan makanan maka janganlah ia makan dari atas piring, tetapi hendaknya ia makan dari bawahnya, sesungguhnya berkah turun dari atasnya." (HR. Abu Daud)
+
+8. Dahulukan makan jika sudah tersaji saat Iqamah dikumandangkan.
+
+Dikisahkan oleh Ibnu Abbas, dari Rasulullah shallallahu 'alaihi wasallam, bahwasanya beliau bersabda: "Jika makan malam telah tersedia dan iqamah dikumandangkan, maka dahulukanlah makan malam." (HR. Tirmidzi).</mutableString>
+                                <color key="textColor" red="0.96925559039999998" green="1" blue="0.9577840125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACKARROW" translatesAutoresizingMaskIntoConstraints="NO" id="jw8-Dd-4av">
+                                <rect key="frame" x="165" y="603" width="45" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="zhz-aL-5WU"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKy-Tw-WUd">
+                                <rect key="frame" x="165" y="603" width="46" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="c6E-mH-8ad"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="i2e-bZ-Orb" kind="show" id="uCj-I0-Blr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartVideo" translatesAutoresizingMaskIntoConstraints="NO" id="NSL-Se-e50">
+                                <rect key="frame" x="146" y="537" width="84" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Ohy-Zr-K5R"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRL-PI-ZSj">
+                                <rect key="frame" x="146" y="537" width="84" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="TMF-5w-efz"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="Start:" destination="q3o-XB-OSe" eventType="touchUpInside" id="jHX-hW-GM4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eat" translatesAutoresizingMaskIntoConstraints="NO" id="bOn-b9-afy">
+                                <rect key="frame" x="49" y="69" width="278" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="2Fc-UB-yBC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U6g-F5-LDO" firstAttribute="trailing" secondItem="jw8-Dd-4av" secondAttribute="trailing" constant="165" id="3X5-JE-5Ng"/>
+                            <constraint firstItem="NSL-Se-e50" firstAttribute="top" secondItem="zOM-qN-BqQ" secondAttribute="topMargin" constant="517" id="3bc-fE-nt2"/>
+                            <constraint firstItem="Oh4-Rd-odJ" firstAttribute="leading" secondItem="U6g-F5-LDO" secondAttribute="leading" constant="67" id="4mu-Xd-AuJ"/>
+                            <constraint firstItem="jw8-Dd-4av" firstAttribute="top" secondItem="zOM-qN-BqQ" secondAttribute="topMargin" constant="583" id="Ffi-R9-RFk"/>
+                            <constraint firstItem="QRL-PI-ZSj" firstAttribute="top" secondItem="zOM-qN-BqQ" secondAttribute="topMargin" constant="517" id="Hci-J7-uGn"/>
+                            <constraint firstItem="NSL-Se-e50" firstAttribute="leading" secondItem="U6g-F5-LDO" secondAttribute="leading" constant="146" id="KIO-xm-igO"/>
+                            <constraint firstItem="U6g-F5-LDO" firstAttribute="trailing" secondItem="Oh4-Rd-odJ" secondAttribute="trailing" constant="68" id="WgS-AM-hm9"/>
+                            <constraint firstItem="U6g-F5-LDO" firstAttribute="trailing" secondItem="bOn-b9-afy" secondAttribute="trailing" constant="48" id="aBd-G2-HzI"/>
+                            <constraint firstItem="U6g-F5-LDO" firstAttribute="trailing" secondItem="oKy-Tw-WUd" secondAttribute="trailing" constant="164" id="dzN-Se-jxk"/>
+                            <constraint firstItem="Oh4-Rd-odJ" firstAttribute="top" secondItem="zOM-qN-BqQ" secondAttribute="topMargin" constant="203" id="e9b-fK-cbI"/>
+                            <constraint firstItem="U6g-F5-LDO" firstAttribute="trailing" secondItem="NSL-Se-e50" secondAttribute="trailing" constant="145" id="fK6-Z3-EEU"/>
+                            <constraint firstItem="U6g-F5-LDO" firstAttribute="trailing" secondItem="QRL-PI-ZSj" secondAttribute="trailing" constant="145" id="gAR-OB-i7Y"/>
+                            <constraint firstItem="oKy-Tw-WUd" firstAttribute="leading" secondItem="U6g-F5-LDO" secondAttribute="leading" constant="165" id="jVm-3F-o2d"/>
+                            <constraint firstItem="oKy-Tw-WUd" firstAttribute="top" secondItem="zOM-qN-BqQ" secondAttribute="topMargin" constant="583" id="nbC-Oe-ewU"/>
+                            <constraint firstItem="jw8-Dd-4av" firstAttribute="leading" secondItem="U6g-F5-LDO" secondAttribute="leading" constant="165" id="tRY-8M-QK6"/>
+                            <constraint firstItem="bOn-b9-afy" firstAttribute="leading" secondItem="U6g-F5-LDO" secondAttribute="leading" constant="49" id="waa-JC-5iH"/>
+                            <constraint firstItem="QRL-PI-ZSj" firstAttribute="leading" secondItem="U6g-F5-LDO" secondAttribute="leading" constant="146" id="wfW-MS-qbt"/>
+                            <constraint firstItem="bOn-b9-afy" firstAttribute="top" secondItem="zOM-qN-BqQ" secondAttribute="topMargin" constant="49" id="x4W-tc-RJK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U6g-F5-LDO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9yc-Lt-Kg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.8" y="871.21439280359823"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m3O-3F-8u9">
+            <objects>
+                <viewController id="V3i-Xy-6kc" customClass="ViewController" customModule="ADAB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3j4-oH-bW0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="minum" translatesAutoresizingMaskIntoConstraints="NO" id="17R-RT-mbA">
+                                <rect key="frame" x="77" y="67" width="220" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="ZbB-1A-06Y"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1KJ-pl-tUD">
+                                <rect key="frame" x="67" y="211" width="240" height="319"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="319" id="edb-c9-QGO"/>
+                                </constraints>
+                                <string key="text">1. Gunakan Tangan Kanan 
+Nabi Muhammad shallallahu ‘alaihi wa sallam (SAW) mengajar untuk kita makan dan memegang bekas minuman menggunakan tangan kanan dan melarang umatnya menggunakan tangan kiri kerana ia adalah sifat syaitan dan ciri-ciri orang yang bongkak.
+Dari Jabir r.a. berkata, Rasulullah SAW bersabda; “Jangan engkau makan dengan (tangan) kirimu, sesungguhnya syaitan itu makan dan minum dengan (tangan) kirinya.” (HR Muslim)
+Rasulullah shallallahu ‘alaihi wa sallam bersabda; “Jika salah seorang dari kamu hendak makan, hendaklah makan dengan tangan kanan. Dan apabila ingin minum, hendaklah minum dengan tangan kanan. Sesungguhnya syaitan makan dengan tangan kirinya dan minum dengan tangan kirinya.” (HR. Muslim) 
+2. Niat Kerana Allah SWT  Hendaklah ketika minum berniat bagi menyegar dan menyihatkan tubuh badan supaya memudahkan beribadah dan kerana Allah SWT.
+Hadis daripada Umar bin al-Khattab r.a, Rasulullah SAW bersabda; “Sesungguhnya setiap amalan itu hanya dengan niat. Dan sesungguhnya setiap orang hanya mendapat balasan mengikut apa yang diniatkan.” (Riwayat al-Bukhari). 
+3. Baca ‘Basmallah’  Memulai minum dengan Basmalah:  ‘Bismillahir-rahmanir-rahim’
+Membaca Basmalah sebelum makan untuk mengelakkan penyakit. Kerana bakteria dan racun ada membuat perjanjian dengan Allah swt, apabila Basmalah dibaca maka bakteria dan racun akan musnah dari sumber makanan itu.
+“Apabila seseorang di antara kamu minum dan memakan makanan, katakanlah ‘Bismillah’. Apabila lupa pada permulaannya, katakanlah ‘Bismillahi fii awwalihi wa aakhirihi.’” (HR. Abu Dawud dan at-Tirmidzi) 
+4. Membaca Doa  Doa minum air;
+اَللَّهُمَّ اِنِّى اَشْرَبُهُ لِتَغْفِرَلِى وَلِتَفْعَلَ بِى، فَاغْفِرْلِى أَوِافْعَلْ Ya Allah! Sesungguhnya daku meminumnya dengan harapan Dikau mengampuni daku dan mengabulkan maksudku; Maka ampunilah daku serta kabulkanlah. 
+5. Minum Dengan Tiga Nafas Minum dengan tiga kali tegukan dan elakkan bernafas ke dalam bekas minuman. Setiap kali berhenti minum hendaklah diarahkan pernafasan ke tempat lain.Dari Abu Qatadah, Nabi shallallahu ‘alaihi wa sallam bersabda, “Jika kamu minum maka janganlah bernafas dalam bekas air minumnya.” (HR. Bukhari dan Muslim r.a.)
+
+Nabi SAW sering meminum dengan tiga kali teguk, sambil bernafas di luar gelas dan mengucapkan ‘Alhamdulillah’ di antara tiga kali tegukan. Baginda SAW juga akan teruskan minum dengan setiap tegukan diselangi bernafas di luar gelas sehingga habis.
+Diriwayatkan dari Anas radhiyalaahu anhu (r.a.) bahawa Rasulullah SAW bernafas tiga kali ketika minum, “Rasulullah SAW biasa bernafas tiga kali sewaktu minum.” (HR. Muttafaq ‘alaih).
+Anas bin Malik r.a. berkata lagi; Baginda SAW bersabda: “Sungguh, ini lebih mengenyangkan, menyembuhkan, dan menyegarkan”. (HR Bukhari dan Muslim)
+Dari Anas bin Malik radhiyallahu ‘anhu beliau mengatakan, “Ketika Rasulullah shallallahu ‘alaihi wa sallam minum beliau mengambil nafas di luar bekas air minum sebanyak tiga kali.” Dan Baginda SAW bersabda, “Hal itu lebih segar, lebih sedap dan lebih nikmat.” Anas mengatakan, “Oleh kerana itu ketika aku minum, aku bernafas tiga kali.” (HR. Bukhari no. 45631 dan Muslim no. 2028) 
+6. Dilarang Meniup Minuman
+	 Jangan bernafas dan meniup air minum di dalam bekas, terutama meniup air yang panas, kerana perbuatan itu akan menjadikan minuman bertoksid disebabkan Co2 yang dihembuskan ke dalamnya.
+Ubay bin Ka’ab berkata: “Rasulullah SAW tidak pernah meniup makanan dan minuman, tidak bernafas di dalam cawan. Bahkan beliau melarang meniup makanan dan minuman.”
+Dari Ibnu Abbas, “Sesungguhnya Nabi shallallahu ‘alaihi wa sallam melarang untuk bernafas atau meniup bekas air minum.” (HR. Turmudzi no. 1888 dan Abu Dawud no. 3728, hadits ini dishahihkan oleh Al-Albani)
+Dalam Syarah Shahih Muslim, Imam Nawawi mengatakan, “Larangan bernafas dalam bekas air minum adalah termasuk etika kerana dikhuatirkan hal tersebut mengotori air minum atau menimbulkan bau yang tidak enak atau dibimbangkan ada sesuatu dari mulut dan hidung yang terjatuh ke dalamnya dan hal-hal semacam itu.” 
+7. Hindari Menonggang
+
+Rasulullah SAW telah mengajarkan adab meminum air dengan cara duduk, menempelkan bibir ke air, bernafas di luar gelas serta tidak minum dengan cara menonggang. Maksudnya adalah mencegah masuknya udara ke dalam perut. 
+8. Minum Dalam Keadaan Duduk Janganlah kita minum dalam keadaan berdiri walaupun ia dibolehkan tetapi ia makruh yang menghampiri kepada haram.
+ 	Anas juga berkata: “Rasulullah SAW 		telah melarang minum sambil berdiri”. 		(HR Muslim)
+	Jika tidak ada tempat untuk duduk 		adalah diharuskan minum sambil 			berdiri. 	Adapun Rasulullah SAW pernah sekali 		minum sambil berdiri, oleh kerana ada 		sesuatu yang menghalangi Baginda 		SAW untuk duduk, seperti penuh 			sesaknya manusia pada tempat-			tempat suci, bukan merupakan 			kebiasaan. Ingat hanya sekali kerana 		darurat!
+	Dari Ibnu Abbas beliau mengatakan, 	“Aku memberikan air zam-zam kepada 	Rasulullah shallallahu ‘alaihi wa sallam. 	Maka Baginda SAW lantas minum 			dalam keadaan berdiri.” (HR. Bukhari 		dan Muslim r.a.) 
+9. Larangan Minum Dalam Bekas Besar
+	Elakkan diri kita meminum dari bekas 		yang besar seperti teko dan cerek. 		Apabila kita minum dari bekas yang 		besar, lumrahnya kita akan meneguk 		air dan dalam proses minum itu, kita 		tentu akan bernafas dan 				menghembuskan nafas dari hidung 		kita.
+	Sewaktu kita hembus, kita akan 			mengeluarkan CO2 iaitu carbon 			dioxide, yang apabila bercampur 			dengan air H20, akan menjadi H2CO3, 		iaitu sama dengan cuka, menyebabkan 	minuman itu menjadi acidic.
+	Ibnu Abbas menambahkan: “Rasulullah 	SAW telah melarang minum dari mulut 		teko”. (HR Bukhori dan Ibnu Majah)	
+	Rasulullah shallallahu ‘alaihi wa sallam 	bersabda, “Janganlah kamu minum	 	sambil berdiri. Sesiapa terlupa 			sehingga minum sambil berdiri, maka 		hendaklah ia berusaha untuk 			memuntahkannya.” (HR. Ahmad r.a.) 
+10. Menutup makanan dan minuman Tutuplah tempat minuman terutama pada malam hari. Rasulullah SAW mewajibkan menutup makanan untuk melindunginya dari pencemaran, sebagaimana dinyatakan dalam hadis Nabi SAW: “Tutuplah makanan dan minuman”. (HR. Bukhari r.a.)
+	Dari Jabir bin Abdillah, ia berkata, aku 		mendengar Rasulullah SAW bersabda, 	“Tutupilah bejana-bejana dan wadah 		air. Kerana dalam satu tahun ada satu 		malam, ketika itu turun wabak, tidaklah 	ia melalui bejana-bejana yang tidak 		tertutup, ataupun wadah air yang tidak 	diikat melainkan akan turun padanya  	sesuatu penyakit.” (HR.  	Muslim r.a.) 
+11. Ucapkan Hamdalah, ‘Alhamdulillah’ Setiap kali berhenti minum (pada setiap penafasan) dan setelah selesai minum bacalah ‘Alhamdullilah’ tanda kita bersyukur atas nikmat yang Allah SWT kurniakan. 
+12. Mencuci mulut (berkumur) selepas makan Hal ini dimaksudkan untuk membersihkan gigi dari sisa makanan dan bakteria. Secara Rasulullah SAW beliau menekankan pentingnya berkumur setelah minum susu: “Berkumurlah kalian setelah minum susu, kerana di dalamnya mengandung lemak”. (HR. Ibnu Majah) 
+</string>
+                                <color key="textColor" red="0.9702504649" green="1" blue="0.92143297710000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACKARROW" translatesAutoresizingMaskIntoConstraints="NO" id="apf-ja-Ule">
+                                <rect key="frame" x="166" y="601" width="43" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="lc8-6e-4om"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jO6-YC-aTC">
+                                <rect key="frame" x="166" y="601" width="46" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="og2-pd-HHg"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="i2e-bZ-Orb" kind="show" id="Xm2-YU-hWg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartVideo" translatesAutoresizingMaskIntoConstraints="NO" id="mhX-8R-2EC">
+                                <rect key="frame" x="144" y="545" width="86" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="qrD-m0-M9X"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTc-SJ-8Bv">
+                                <rect key="frame" x="144" y="545" width="86" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="vPR-5q-1Np"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="STR:" destination="V3i-Xy-6kc" eventType="touchUpInside" id="IMr-qS-QGW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mhX-8R-2EC" firstAttribute="leading" secondItem="4E5-ik-XTL" secondAttribute="leading" constant="144" id="25K-tQ-5Vl"/>
+                            <constraint firstItem="4E5-ik-XTL" firstAttribute="trailing" secondItem="jO6-YC-aTC" secondAttribute="trailing" constant="163" id="4IS-TZ-yHR"/>
+                            <constraint firstItem="1KJ-pl-tUD" firstAttribute="top" secondItem="3j4-oH-bW0" secondAttribute="topMargin" constant="191" id="7V2-FV-6lf"/>
+                            <constraint firstItem="4E5-ik-XTL" firstAttribute="trailing" secondItem="17R-RT-mbA" secondAttribute="trailing" constant="78" id="CAU-3D-dH8"/>
+                            <constraint firstItem="1KJ-pl-tUD" firstAttribute="leading" secondItem="4E5-ik-XTL" secondAttribute="leading" constant="67" id="Ci9-9h-WIP"/>
+                            <constraint firstItem="mhX-8R-2EC" firstAttribute="top" secondItem="3j4-oH-bW0" secondAttribute="topMargin" constant="525" id="IKc-vo-tSd"/>
+                            <constraint firstItem="apf-ja-Ule" firstAttribute="top" secondItem="3j4-oH-bW0" secondAttribute="topMargin" constant="581" id="KfF-DG-tYn"/>
+                            <constraint firstItem="jTc-SJ-8Bv" firstAttribute="leading" secondItem="4E5-ik-XTL" secondAttribute="leading" constant="144" id="L1p-9Y-AWE"/>
+                            <constraint firstItem="4E5-ik-XTL" firstAttribute="trailing" secondItem="mhX-8R-2EC" secondAttribute="trailing" constant="145" id="OFq-Lh-NNB"/>
+                            <constraint firstItem="jTc-SJ-8Bv" firstAttribute="top" secondItem="3j4-oH-bW0" secondAttribute="topMargin" constant="525" id="QJc-5L-Pc5"/>
+                            <constraint firstItem="4E5-ik-XTL" firstAttribute="trailing" secondItem="jTc-SJ-8Bv" secondAttribute="trailing" constant="145" id="UfG-Pg-3RP"/>
+                            <constraint firstItem="4E5-ik-XTL" firstAttribute="trailing" secondItem="1KJ-pl-tUD" secondAttribute="trailing" constant="68" id="XpH-6z-iHf"/>
+                            <constraint firstItem="17R-RT-mbA" firstAttribute="top" secondItem="3j4-oH-bW0" secondAttribute="topMargin" constant="47" id="eC4-Xc-kug"/>
+                            <constraint firstItem="jO6-YC-aTC" firstAttribute="leading" secondItem="4E5-ik-XTL" secondAttribute="leading" constant="166" id="gqP-d4-IpZ"/>
+                            <constraint firstItem="apf-ja-Ule" firstAttribute="leading" secondItem="4E5-ik-XTL" secondAttribute="leading" constant="166" id="hPE-3o-L9D"/>
+                            <constraint firstItem="17R-RT-mbA" firstAttribute="leading" secondItem="4E5-ik-XTL" secondAttribute="leading" constant="77" id="mku-OQ-ZbM"/>
+                            <constraint firstItem="jO6-YC-aTC" firstAttribute="top" secondItem="3j4-oH-bW0" secondAttribute="topMargin" constant="581" id="nGL-u0-Fah"/>
+                            <constraint firstItem="4E5-ik-XTL" firstAttribute="trailing" secondItem="apf-ja-Ule" secondAttribute="trailing" constant="166" id="wKM-Mu-Y2s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4E5-ik-XTL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgh-kb-trK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.8" y="-551.87406296851577"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ADAB MAKAN DAN MINUM" width="717" height="652"/>
+        <image name="ADAB MAKANAN" width="838" height="569"/>
+        <image name="BACKARROW" width="472" height="607"/>
+        <image name="Eat" width="699" height="512"/>
+        <image name="LETS START (ADAB)" width="753" height="643"/>
+        <image name="ME" width="1257" height="487"/>
+        <image name="StartVideo" width="711" height="293"/>
+        <image name="W THEM" width="1378" height="1018"/>
+        <image name="makan" width="837" height="569"/>
+        <image name="minum" width="699" height="512"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Xm2-YU-hWg"/>
+    </inferredMetricsTieBreakers>
+</document>
